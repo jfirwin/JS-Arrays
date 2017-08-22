@@ -4,8 +4,9 @@
 var arr = [10,20,30];
 //Create a function named 'first' that is given 'arr' as the argument and  returns the first item in the given array.
 
-  //Code Here
-
+function first (arr) {
+  return arr[0];
+}
 
 //Next problem
 
@@ -48,7 +49,7 @@ var nums = [1,2,3,6,22,98,45,23,22,12];
 
 
 
-  
+
 
 
 
