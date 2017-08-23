@@ -110,7 +110,12 @@ var getRandomArbitrary = function() {
 
 // Your job is to write a function named finder that will get a random number (by invoking getRandomArbitrary), then loop through the array (that will be passed in as a parameter) to see if that random number is in the array. If it is, return true, if it's not, return false
 
-  //Code Here
+function finder (arr) {
+  var getRandomNumber = Math.floor(Math.random() * 30);
+  if (arr.indexOf(getRandomNumber) === -1) {
+    return false;
+  } return true;
+  }
 
 
 
