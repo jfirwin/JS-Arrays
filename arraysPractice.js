@@ -143,6 +143,11 @@ function removeItem(myGroceryList, item) {
   myGroceryList.splice(myGroceryList.indexOf(item),1);
   return myGroceryList;
 }
+
+function addItem(myGroceryList, item) {
+  myGroceryList.push(item);
+  return myGroceryList;
+}
 //removeItem(myGroceryList, 'chips') --> ['pizza', 'hotpockets', 'MtnDew', 'corndogs'];
 //addItem(myGroceryList, 'Jerky') --> ['pizza', 'hotpockets', 'MtnDew', 'corndogs', 'Jerky'];
 
