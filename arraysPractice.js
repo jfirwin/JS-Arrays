@@ -220,10 +220,15 @@ Your 'both' function will be given two arguments, arr1 and arr2 (from the previo
 Example: var arr1 = [1,2,3,4]; var arr2 = [2,4,5,6]; newArray // [2,4]
 */
 
-  //Code Here
-
-
-
+function both(arr1, arr2) {
+  let newArr = [];
+  for (var i = 0; i < arr1.length; i++) {
+    if (arr2.indexOf(arr1[i]) != -1) {
+      newArr.push(arr1[i]);
+    }
+  }
+  return newArr;
+}
 
 //NEXT PROBLEM
 
